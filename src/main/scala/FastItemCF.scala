@@ -1,7 +1,7 @@
 import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
 
-object ItemCF2 {
+object FastItemCF {
   def main(args: Array[String]): Unit = {
     val master = "spark://master:7077"
     val filePath = "hdfs://master:9000//user/root/user_history"
